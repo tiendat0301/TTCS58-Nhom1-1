@@ -66,7 +66,7 @@ bool check(vector<int> bin) {
 void backtracking(vector<int> bin, int n, int i) {
     for(int j = 0; j <= 1; j++) {
         bin[i] = j;
-        if(bin[0] == 1) break;
+//		if(bin[0] == 1) break;
         if(i == n - 1) {
             if(check(bin)) {
                 pushToResult(bin);
@@ -87,7 +87,7 @@ void showResult() {
             cout << endl;
         }
         cout << result[i] << " ";
-    }
+    } cout << endl;
 }
 void writetoFile() {
     ofstream myfile;
