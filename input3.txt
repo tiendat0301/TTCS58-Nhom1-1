@@ -1,0 +1,13 @@
+3
+123
+huynh
+dat
+23000
+124
+nguyen
+tuan
+22000
+122
+tran
+nam
+27000
